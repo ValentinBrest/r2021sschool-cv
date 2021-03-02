@@ -30,4 +30,4 @@ I work as an engineer in a construction organization. This is my first course in
 From 2013 to 2018, I studied at BrSTU (Faculty of Civil Engineering: Industrial and Civil Engineering)
 
 **English:**
-I started learning English after university, there was German. In the near future, I plan to go to England to be able to talk to native speakers. The level of English at the moment is A2
+I started learning English after university, there was German. In the near future, I plan to go to England to be able to talk to native speakers. The level of English at the moment is A2.
