@@ -1,0 +1,163 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #000000;
+    background-color:rgb(171, 228, 209);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.h1{
+    letter-spacing: 10px; 
+    padding: 15px;
+}
+
+
+/*Header*/
+
+.header {
+    width:100%;
+    padding-bottom: 0px;
+    padding-top: 25px;
+}
+
+.header:after {
+    content: "";
+    display: block;
+    width: 1200px;
+    height: 5px;
+    background:#b9a9ca;
+    
+    text-align: center;
+    margin: 15px auto 5px;
+}
+
+.header_intro {
+    text-align: center;  
+}
+
+.header_inner { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+.header_name{
+    padding: 20px;
+}
+
+.header_photo{
+    border-radius: 50px;
+}
+
+/* Contacts */
+
+.contacts {
+margin: 25px;
+}
+
+
+
+/* Nav */
+
+.nav {
+    text-align: left;
+    font-size: 16px;
+}
+
+
+
+/*Main*/
+
+.main {
+    width:100%;
+    height: 100% ; 
+    box-sizing: border-box; 
+    min-height: 100%;
+	padding-bottom: 90px;
+}
+
+/* Container */
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Section */
+
+.section {
+    width: 100%;
+    max-width: 600px;
+    padding: 50px 100px; 
+    transition: all 0.2s linear;
+}
+
+.section:hover {
+    background-color: aliceblue; 
+    box-shadow: 0px 10px 40px rgb(0, 0, 0);
+
+}
+
+.section_name{
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight:300;
+    margin: 0;
+}
+
+.section_text h3{
+    font-weight:300;
+}
+
+.section_text a{
+    font-size: 15px;
+    
+}
+
+.section_nav li{
+    font-size: 15px;
+    font-weight:300;
+}
+
+/* Footer */
+
+.footer{
+    width:100%;
+    max-width: 1200px;
+    margin: 30px auto 0;
+
+    height: 80px;
+    margin-top: -80px;
+}
+
+.footer_text{
+    padding: 15px 0 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    border-radius:  50px 0 50px 0;
+    border-top: 6px solid #b9a9ca;
+    border-left: 6px solid #b9a9ca;
+    border-right: 6px solid #b9a9ca;
+    background-color: rgb(171, 228, 209);
+}
+
+.footer_h{
+    padding: 0 10px;
+}
